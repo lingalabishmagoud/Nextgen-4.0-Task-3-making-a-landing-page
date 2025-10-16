@@ -1,10 +1,11 @@
 header{
     height: 100px;
     width: 100%;
-    background-color: whitesmoke;
+    background-color: #f6d1b8;
     display: flex;
     margin-top: 10px;
-    border-radius: 10px;
+    border-radius: 15px;
+    padding-bottom: 15px;
     
 }
 li{
@@ -16,8 +17,15 @@ li{
 ul{
    padding: 20px 30%;
    display: flex;
+   list-style-type: none;
+   color: black;;
    
 }
 .logo-ls{
     padding-left: 0px 0px 0px 50px;
+}
+
+header ul li a {
+    color: black;
+    text-decoration: none;
 }
